@@ -1,0 +1,29 @@
+{
+  "name": "api-starter",
+  "version": "1.0.0",
+  "description": "backend starter built with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grafisaholic/node-api-starter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "dev@grafishaolic.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grafisaholic/node-api-starter/issues"
+  },
+  "homepage": "https://github.com/grafisaholic/node-api-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}

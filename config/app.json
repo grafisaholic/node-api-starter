@@ -1,0 +1,10 @@
+{
+  "dev": {
+		"host": "::",
+		"port": 3000
+  },
+  "production": {
+		"host": "::",
+		"port": 8080
+  }
+}
