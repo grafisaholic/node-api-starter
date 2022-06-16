@@ -1,0 +1,18 @@
+const InitServer = require("../index");
+const logger = require("../libs/logs");
+
+const Server = new InitServer();
+
+function RunServer() {
+	Server.initDatabase((err, db) => {
+		if (err) return logger.danger(err);
+
+		const app = Server.app;
+
+		Server.initRedis(app);
+
+		Server.run(app);
+	});
+}
+
+RunServer();

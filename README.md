@@ -22,8 +22,11 @@ npm start test
 
 ## Connecting Database
 
-- [Mongodb](https://www.mongodb.com/) (comming soon)
-- [Mariadb](https://mariadb.org/) (comming soon)
+- [Mongodb](https://www.mongodb.com/)
+
+## Includes
+
+- Queue (Redis)
 
 ## Credits
 

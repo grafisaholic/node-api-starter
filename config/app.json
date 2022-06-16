@@ -1,10 +1,20 @@
 {
-  "dev": {
-		"host": "::",
-		"port": 3000
-  },
-  "production": {
-		"host": "::",
-		"port": 8080
-  }
+	"development": {
+		"app": {
+			"host": "::",
+			"port": 3000
+		},
+		"session": {
+			"secretKey": "secretKey"
+		}
+	},
+	"production": {
+		"app": {
+			"host": "::",
+			"port": 3000
+		},
+		"session": {
+			"secretKey": "secretKey"
+		}
+	}
 }

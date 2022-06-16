@@ -1,7 +1,9 @@
-const app = require('express').Router();
+const app = require("express").Router();
 
-const WelcomeHandler = require('./welcome'), Welcome = new WelcomeHandler();
+const WelcomeHandler = require("./welcome"),
+	Welcome = new WelcomeHandler();
 
-app.use('/', Welcome.index);
+app.get("/", Welcome.index);
+app.post("/", Welcome.samplePost);
 
 module.exports = app;
